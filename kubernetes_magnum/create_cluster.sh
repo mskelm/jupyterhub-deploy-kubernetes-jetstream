@@ -2,7 +2,7 @@
 FLAVOR="m1.medium"
 MASTER_FLAVOR=$FLAVOR
 DOCKER_VOLUME_SIZE_GB=10
-KEYPAIR=${OS_USERNAME}-api-key
+KEYPAIR=$tcaakeypair
 
 # number of instances
 N_MASTER=1
